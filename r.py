@@ -1,5 +1,9 @@
+a = input('請輸入起始值: ')
+b = input('請輸入最大值: ')
+a = int(a)
+b = int(b)
 import random
-r = random.randint(1,100)
+r = random.randint(a, b)
 count = 0
 while True:
 	count += 1
